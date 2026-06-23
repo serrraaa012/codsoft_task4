@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/copilot_20260624_014447"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Quiz Title -->
+    <TextView
+        android:id="@+id/tvQuizTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textColor="#E0E0E0"
+        android:textSize="18sp" />
+
+    <!-- Question Progress -->
+    <TextView
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFD93D"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="20dp"
+        android:background="#80FFFFFF" />
+
+    <!-- Question Text -->
+    <TextView
+        android:id="@+id/tvQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:lineSpacingExtra="4dp"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Options -->
+    <RadioGroup
+        android:id="@+id/radioGroupOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/radioOption0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/radio_button_selector"
+            android:button="@null"
+            android:gravity="center_vertical"
+            android:minHeight="55dp"
+            android:padding="16dp"
+            android:paddingStart="20dp"
+            android:textColor="@drawable/radio_button_text_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/radio_button_selector"
+            android:button="@null"
+            android:gravity="center_vertical"
+            android:minHeight="55dp"
+            android:padding="16dp"
+            android:paddingStart="20dp"
+            android:textColor="@drawable/radio_button_text_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/radio_button_selector"
+            android:button="@null"
+            android:gravity="center_vertical"
+            android:minHeight="55dp"
+            android:padding="16dp"
+            android:paddingStart="20dp"
+            android:textColor="@drawable/radio_button_text_selector"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/radio_button_selector"
+            android:button="@null"
+            android:gravity="center_vertical"
+            android:minHeight="55dp"
+            android:padding="16dp"
+            android:paddingStart="20dp"
+            android:textColor="@drawable/radio_button_text_selector"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <!-- Submit/Next Button -->
+    <Button
+        android:id="@+id/btnSubmitAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/black"
+        android:fontFamily="@font/amita"
+        android:text="SUBMIT ANSWER"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Feedback -->
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#80000000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:radius="12dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

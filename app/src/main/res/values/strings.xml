@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="quiz_app">QUIZ APP</string>
+    <string name="test_your_knowledge">Test your knowledge!</string>
+    <string name="start_new_quiz">START NEW QUIZ</string>
+    <string name="view_all_quizzes">VIEW ALL QUIZZES</string>
+</resources>

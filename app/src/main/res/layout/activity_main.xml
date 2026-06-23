@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- App Icon/Emoji -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text=" WELCOME! "
+        android:textAllCaps="true"
+        android:textColor="@color/card_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/akronim"
+        android:letterSpacing="0.1"
+        android:text="QUIZIFY"
+        android:textColor="@color/card_color"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/amita"
+        android:text="Time to test your knowledge!"
+        android:textColor="@color/card_color"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnStartNewQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:background="#BF000000"
+        android:fontFamily="@font/amita"
+        android:text=" START NEW QUIZ"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnViewQuizzes"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#BF000000"
+        android:fontFamily="@font/amita"
+        android:text=" VIEW ALL QUIZZES"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
