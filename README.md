@@ -80,6 +80,7 @@ CardView
 
 ## Installation
 Clone the repository:
+https://github.com/serrraaa012/codsoft_task4.git
 
 
 ## Screenshots
